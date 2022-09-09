@@ -16,7 +16,7 @@ function App() {
 				<Nav />
 				<Routes>
 					<Route element={<PrivateComponent />}>
-						<Route path="/" element={<SignUp />} />
+						<Route path="/" element={<ProductList />} />
 						<Route path="/add" element={<AddProduct />} />
 						<Route path="/update/:id" element={<UpdateProduct />} />
 						<Route path="/logout" element={<h1>Logout Component</h1>} />
